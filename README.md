@@ -119,8 +119,9 @@ User can also specify the number (-n) of sequences or the percentage of sequence
 ### Choosing a method to create random sequences
 When choosing a method, the following options were considered: randomization without returning, drawing with return and drawing with the help of the Nullseq program. Due to the very similar results of the obtained percentage compared to the desired GC percentage, a returnless random draw was chosen to create random sequences. This method also did not produce any error. The draw using the Nullseq program produced an error when the GC percentage was set to values of 10%, 30%, 90%.
 
-<img src="images/Test_methods_for_creating_random_sequences.png">
-<img src="images/Test_methods_for_creating_random_sequences_table.png">
+
+<img src="./images/Test_methods_for_creating_random_sequences.PNG"/>
+<img src="./images/Test_methods_for_creating_random_sequences_table.PNG">
 
 
 ### Shuffle validation
@@ -128,7 +129,7 @@ In order to test the correctness of the reshuffle, it was checked how the dinucl
 This test was performed for the non-overlapping dinucleotides/trinucleotides by taking the sequences and splitting them from the beginning into dinucleotides/trinucleotides, as well as for the overlapping dinucleotides/trinucleotides (splitting the sequences from position 0 and 1). The results show that the sequence shuffling function works correctly, as the frequencies in the sequence to be shuffled as well as the outgoing sequences are preserved.
 
 
-<img src="images/non_overlapping_dinucleotides.png">
-<img src="images/non_overlapping_trinucleotides.png">
-<img src="images/overlapping_dinucleotides.png">
-<img src="images/overlapping_trinucleotides.png">
+<img src="./images/non_overlapping_dinucleotides.PNG">
+<img src="./images/non_overlapping_trinucleotides.PNG">
+<img src="./images/overlapping_dinucleotides.PNG">
+<img src="./images/overlapping_trinucleotides.PNG">
